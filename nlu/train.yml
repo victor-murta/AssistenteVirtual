@@ -1,0 +1,52 @@
+
+commands: 
+  #hora
+  - command:
+    imput: Que horas são?
+    #minha categoria
+    entity: time
+    action: getTime
+  - command:
+    imput: Me diga as horas
+    #minha categoria
+    entity: time
+    action: getTime
+  #Data
+  - command:
+    imput: Qual é a data de hoje?
+    #minha categoria
+    entity: time
+    action: getDate
+  - command:
+    imput: Data de hoje
+    #minha categoria
+    entity: time
+    action: getTime
+  # Tempo
+  - command:
+    imput: Previsão do tempo
+    #minha categoria
+    entity: weather
+    action: getWeather
+  - command:
+    imput: Previsão do tempo para hoje
+    #minha categoria
+    entity: weather
+    action: getWeather
+  - command:
+    imput: Como está o clima?
+    #minha categoria
+    entity: weather
+    action: getWeather
+  #Open
+  - command:
+    imput: Abrir o google
+    #minha categoria
+    entity: open
+    action: 
+  - command:
+    imput: Abra o youtube
+    #minha categoria
+    entity: open
+    action: 
+
